@@ -1,11 +1,11 @@
-# **ANHELINA BARANOUSKAYA
+# ANHELINA BARANOUSKAYA
 
 ## *Junior Frontend Developer* 
 
 ## CONTACT INFORMATION 
-* - Phone: +375 29 5367402;
-*- E-mail: gelia13@mail.ru;
-*- Instagram: angelinka_dia.
+* Phone: +375 29 5367402;
+* E-mail: gelia13@mail.ru;
+* Instagram: angelinka_dia.
 
 ## ABOUT ME:
 
