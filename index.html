@@ -10,38 +10,51 @@
 
 <body>
     <header class="header">
-        <div class="header_inner">
-            <nav class="nav">
-               <a class="nav_link" href="#About-me">About Me</a>
-               <a class="nav_link" href="#Education">Education</a>
-               <a class="nav_link" href="#Experiense">Experiense</a>
-               <a class="nav_link" href="#Scills">Scills I own</a>
-               <a class="nav_link" href="#Contact">Contact</a>
-               <a class="nav_link" href="#Languares"> Languages</a>
-            </nav>
-        </div>
-    </header>
+        <nav class="nav">
+           <a class="nav_link" href="#About-me">About Me</a>
+           <a class="nav_link" href="#Education">Education</a>
+           <a class="nav_link" href="#Experiense">Experiense</a>
+           <a class="nav_link" href="#Scills">Scills I own</a>
+           <a class="nav_link" href="#Contact">Contact</a>
+           <a class="nav_link" href="#Languares"> Languages</a>
+           <a class="nav_link" href="#Code">Code</a>
+        </nav>
+   </header>
     
 
 
-     <main class="main">
-         <div class="left_column">
-             <div class="photo">
-                <h1 class="name">Anhelina Baranouskaya</h1>
-                <img class="img" src="./I.jpg" alt="My photo" width="180" height="200">
+    <main class="main">
+       <div class="left_column">
+           <div class="photo">
+                <h1>Anhelina Baranouskaya</h1>
+                <img class="img" src="./I.jpg" alt="My photo" width="200" height="200">
                 <h2> Junior Frontend Developer</h2>
-             </div>
+           </div>
             
-             <section>
-                 <h3 id="Languares">Languares:</h3>
-                 <ul class="list">
-                     <li>English (in the process of studying);</li>
-                     <li>Russian;</li>
-                     <li>Belorusian;</li>
-                     <li>German.</li>
-                 </ul>
-             </section>
-         </div>
+            <section>
+                <h3 id="Languares">Languares:</h3>
+                <ol>
+                   <li>English (in the process of studying);</li>
+                   <li>Russian;</li>
+                   <li>Belorusian;</li>
+                   <li>German.</li>
+                </ol>
+           </section>
+           <section>
+            <h3 id="Code">Code:</h3>
+            <pre class="code">
+
+function pow (a, b) {
+  let result = a;
+  for ( let i = 1; i < b; i++) {
+    result *= a;
+  }
+  return result;
+}
+            </pre>
+            </section>
+       
+      </div>
          <div class="right_column">
              <section>
                 <h3 id="About-me">About Me:</h3>
@@ -58,37 +71,46 @@
              </section>
              <section>
                  <h3 id="Scills">Skills I own:</h3>
-                  <ul class="list">
+                  <ul>
                      <li>HTML;</li>
                      <li>Git;</li>
                      <li>JavaScript;</li>
                      <li>Photoshop.</li>
                   </ul>
              </section>
-             <section id="Contact" class="contact">
+             <section id="Contact">
                 <h3>Contact information</h3>
-                <ul class="list_contact">
-                    <li> 
+                <ul>
+                    <li class="contact"> 
                         <img src="phone.png" alt="phone" width="25"
-                     height="25"><span> Phone: +375 29 5367402</span> 
+                     height="25"><span> Phone: +375 29 5367402;</span> 
                     </li>
-                    <li> 
-                        <img src="viber.jpg" alt="viber" width="25"
-                        height="25"> <span> Viber: +375 29 5367402</span>
+                    <li class="contact">  
+                        <img src="viber.png" alt="viber" width="25"
+                        height="25"> <span> Viber: +375 29 5367402;</span>
                     </li>
-                    <li> 
+                    <li class="contact"> 
+                        <img src="whatsapp.png" alt="whatsapp" width="25"
+                     height="25"><span> WhatsApp: +375 29 5367402;</span> 
+                    </li>
+                    <li class="contact"> 
                         <img src="email.png" alt="email" width="25"
-                        height="25"> <span> E-mail: gelia13@mail.ru</span></li>
-                    <li> 
+                        height="25"> <span> E-mail: gelia13@mail.ru;</span>
+                    </li>
+                    <li class="contact">
                         <img src="instagram.png" alt="instagram" width="25" height="25">
-                        <span> Instagram: angelinka_dia</span>
+                        <span> Instagram: angelinka_dia.</span>
+                    </li>
+                    <li class="contact">
+                        <img src="telegram.png" alt="telegram" width="25" height="25">
+                        <span> Telegram: angelinka_dia.</span>
                     </li>
                 </ul>
             </section>
 
          </div>
 
-     </main>
+    </main>
 
      <footer class="footer">
         <a href="https://rs.school/js/">
@@ -96,8 +118,8 @@
         </a>
         <p>© 2021</p>
         <a class="my_github" href="https://github.com/Angelinka13">
-                <img class="my_github" src="github.svg" alt="logo Github" width="30" height="30">
-                <p>My Github: Angelinka13</p>
+            <img src="github.svg" alt="logo Github" width="30" height="30">
+            <p> My Github: Angelinka13</p>
         </a>
     </footer>
 </body>
