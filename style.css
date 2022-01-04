@@ -1,6 +1,8 @@
 body {
     margin: 0;
-    background-color: rgb(230, 150, 197);
+    background: url("../rsschool-cv/background.jpg") center;
+    -webkit-background-size: cover;
+    background-size: cover;
 }
 
 * {
