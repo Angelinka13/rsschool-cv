@@ -1,1 +1,1 @@
-https://Angelinka13.github.io/rsschool-cv/cvgit 
+https://Angelinka13.github.io/rsschool-cv/
